@@ -1,0 +1,57 @@
+import { StyleSheet, Platform } from "react-native";
+export default StyleSheet.create({
+  droidSafeArea: {
+    paddingTop: Platform.OS === "android" ? 25 : 0,
+  },
+  container: {
+    height: "85%",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    textAlignVertical: "center",
+  },
+  image: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    resizeMode: "stretch",
+  },
+  button: {
+    borderStyle: "solid",
+    borderColor: "#9DB2A4",
+    borderRadius: 5,
+    color: "#97BC62FF",
+    backgroundColor: "#003727",
+    width: 200,
+    height: 55,
+    textAlign: "center",
+    textAlignVertical: "center",
+    letterSpacing: 1.1,
+    fontSize: 18,
+    marginBottom: 5,
+    overflow: "hidden",
+  },
+  inputBorder: {
+    backgroundColor: "transparent",
+    borderBottomWidth: 1,
+    borderBottomColor: "#97BC62FF",
+    width: 180,
+    marginBottom: 4,
+    textAlign: "center",
+    fontSize: 26,
+    color: "#97BC62FF",
+  },
+  siHeader: {
+    textAlign: "center",
+    color: "#97BC62FF",
+    fontSize: 25,
+    letterSpacing: 2.4,
+  },
+  siHeader2: {
+    textAlign: "center",
+    color: "#97BC62FF",
+    letterSpacing: 1.7,
+    fontSize: 15,
+  },
+});

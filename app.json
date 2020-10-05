@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Money Manager",
+    "slug": "money_manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/money_logo.jpg",
+    "splash": {
+      "image": "./assets/money_logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "A MERN stack app to track how much money you have left to spend! \n\nLogo is Money Growing on Tree by BSGStudio, courtesy of all-free-download.com.\nBackground image is \"Paralax\" by Drew Selby and is licensed under CC BY 2.0",
+    "android": {
+      "package": "com.jchu614.money_manager"
+    }
+  }
+}
